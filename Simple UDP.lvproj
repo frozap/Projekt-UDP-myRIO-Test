@@ -105,6 +105,7 @@ UDP does offer the ability to "broadcast" data across a network--simply specify 
 				<Property Name="App_serverConfig.httpPort" Type="Int">8002</Property>
 				<Property Name="Bld_autoIncrement" Type="Bool">true</Property>
 				<Property Name="Bld_buildCacheID" Type="Str">{60535D19-F186-4E4B-A493-54A5057D7390}</Property>
+				<Property Name="Bld_buildSpecDescription" Type="Str">Send counter at 1sec intervall to myRIO</Property>
 				<Property Name="Bld_buildSpecName" Type="Str">UDP Send</Property>
 				<Property Name="Bld_excludeInlineSubVIs" Type="Bool">true</Property>
 				<Property Name="Bld_excludeLibraryItems" Type="Bool">true</Property>
@@ -113,16 +114,16 @@ UDP does offer the ability to "broadcast" data across a network--simply specify 
 				<Property Name="Bld_localDestDirType" Type="Str">relativeToCommon</Property>
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{0C1B2DE6-EDD2-460E-945A-DCDA0E74D36C}</Property>
-				<Property Name="Bld_version.build" Type="Int">1</Property>
+				<Property Name="Bld_version.build" Type="Int">3</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
-				<Property Name="Destination[0].destName" Type="Str">Application.exe</Property>
-				<Property Name="Destination[0].path" Type="Path">../builds/NI_AB_PROJECTNAME/UDP Send/Application.exe</Property>
+				<Property Name="Destination[0].destName" Type="Str">UDP Send.exe</Property>
+				<Property Name="Destination[0].path" Type="Path">../builds/NI_AB_PROJECTNAME/UDP Send/UDP Send.exe</Property>
 				<Property Name="Destination[0].preserveHierarchy" Type="Bool">true</Property>
 				<Property Name="Destination[0].type" Type="Str">App</Property>
 				<Property Name="Destination[1].destName" Type="Str">Support Directory</Property>
 				<Property Name="Destination[1].path" Type="Path">../builds/NI_AB_PROJECTNAME/UDP Send/data</Property>
 				<Property Name="DestinationCount" Type="Int">2</Property>
-				<Property Name="Source[0].itemID" Type="Str">{95119B96-07DA-4EC9-A751-5AAAC1013B02}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{1ADE9B9A-BA52-415B-832F-92902256D5EB}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/My Computer/Simple UDP - Sender.vi</Property>
@@ -135,7 +136,7 @@ UDP does offer the ability to "broadcast" data across a network--simply specify 
 				<Property Name="TgtF_legalCopyright" Type="Str">Copyright © 2019 Hochschule Emden/Leer</Property>
 				<Property Name="TgtF_productName" Type="Str">UDP Send</Property>
 				<Property Name="TgtF_targetfileGUID" Type="Str">{5362E7D8-12F6-4E99-A29D-EF705804F199}</Property>
-				<Property Name="TgtF_targetfileName" Type="Str">Application.exe</Property>
+				<Property Name="TgtF_targetfileName" Type="Str">UDP Send.exe</Property>
 				<Property Name="TgtF_versionIndependent" Type="Bool">true</Property>
 			</Item>
 		</Item>
